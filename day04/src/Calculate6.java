@@ -7,8 +7,8 @@ public class Calculate6 {
 			
 			int adultTotalPrice=adultPrice*adultCount;
 			int teenagerTotalPrice=teenagerPrice*teenagerCount;
-			int childTotalPrice=childPrice*childCount;
-			int total=adultTotalPrice+teenagerTotalPrice+childTotalPrice;
+			int childTotalPrice=childPrice*childCount; 
+			int total=adultTotalPrice+teenagerTotalPrice+childTotalPrice; 
 			
 			
 			System.out.println(adultTotalPrice);
