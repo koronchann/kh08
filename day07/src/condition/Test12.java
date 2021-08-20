@@ -16,13 +16,13 @@ public class Test12 {
 		int endNumber;
 		
 		if (month==2) {
-			if(year/400==0) {
+			if(year%400==0) {
 				endNumber=29;
 			}
-			else if(year/100==0) {
+			else if(year%100==0) {
 				endNumber=28;
 			}
-			else if(year/4==0) {
+			else if(year%4==0) {
 				endNumber=29;
 			}
 			else {
@@ -30,7 +30,7 @@ public class Test12 {
 			}
 		}
 		
-		else if(month==4&&month==6&&month==9&&month==11) {
+		else if(month==4||month==6||month==9||month==11) {
 			endNumber=30;
 		}
 		
