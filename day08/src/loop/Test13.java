@@ -14,7 +14,8 @@ public class Test13 {
 
 		for (int i = 2; i <= day; i++) {
 
-			money = money * 2;
+			money = money * 2; // money*=2 라고 표현 가능
+
 			System.out.println(i + "일차 = " + money + "원");
 			total += money;
 
