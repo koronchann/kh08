@@ -14,7 +14,7 @@ public class Test01 {
 
 		for (int i = startNum; i <= endNum; i++) {
 
-			for (int j = i; j > 0; j = j / 10) {
+			for (int j = i; j > 0; j /= 10) {
 				if (j % 10 == 3 || j % 10 == 6 || j % 10 == 9) {
 					count++;
 				}
